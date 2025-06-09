@@ -8,35 +8,6 @@ export interface IRoute {
     iface: string;
 }
 
-// const routes: IRoute[] = [
-//     {
-//         uuid: "1",
-//         address: "0.0.0.0/0",
-//         gateway: "193.0.174.1",
-//         routeInterface: "Подключение Ethernet",
-//     },
-//     { uuid: "2", address: "10.1.30.0/24", gateway: "0.0.0.0", routeInterface: "Гостевая сеть" },
-//     { uuid: "3", address: "193.168.1.0.24", gateway: "0.0.0.0", routeInterface: "Домашняя сеть" },
-//     {
-//         uuid: "4",
-//         address: "193.0.174.0/24",
-//         gateway: "0.0.0.0",
-//         routeInterface: "Подключение Ethernet",
-//     },
-//     {
-//         uuid: "5",
-//         address: "193.0.175.0/25",
-//         gateway: "193.0.174.10",
-//         routeInterface: "Подключение Ethernet",
-//     },
-//     {
-//         uuid: "6",
-//         address: "193.0.175.22/32",
-//         gateway: "193.0.174.1",
-//         routeInterface: "Подключение Ethernet",
-//     },
-// ];
-
 const routes: IRoute[] = [
     {
         uuid: "6b47e3f4-9f81-4bba-b7d9-167277b2c6ba",
